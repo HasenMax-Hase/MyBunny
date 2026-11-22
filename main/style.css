@@ -52,6 +52,7 @@ h1 {
     width: auto;
     display: block;
     -webkit-user-drag: none;
+    transition: transform 0.1s;
 }
 
 #button_press {
@@ -75,4 +76,12 @@ p {
     font-size: 36px;
     padding: 10px 75px;
     border-radius: 20px;
+}
+
+#button_press:hover .animal_icon_class {
+    transform: scale(1.05);
+}
+
+#button_press:active .animal_icon_class {
+    transform: scale(0.9);
 }

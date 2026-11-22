@@ -25,3 +25,13 @@ p {
     padding: 30px 50px;
     margin: 30px auto;
 }
+
+.button_back {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: aqua;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}

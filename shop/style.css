@@ -54,7 +54,7 @@ body {
 .button_back {
     position: fixed;
     bottom: 10px;
-    right: 10px;
+    left: 10px;
     background-color: gold;
     font-size: 36px;
     padding: 20px 40px;
