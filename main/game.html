@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href = "../bilder/liebe_icon.png?v=2">
+    <title>Happy Birthday</title>
+</head>
+<body>
+    <h1>Klicke das Tier an</h1>
+    <p id = "liebe_wert_id">0</p>
+    <img class = "liebe_icon_class " src = "../bilder/liebe_icon.png">
+    <button id = "button_press" type ="button" onclick = "liebe_wert()">
+        <img id = "tier_id" class = "animal_icon_class" src = "../bilder/hund.png" draggable = "false">
+    </button>
+    <button id = "shop_button_id" class = "shop_button_class" onclick = "go_shop()">Shop</button>
+    <button id = "menue_button_id" class = "menue_button_class" onclick = "go_menue()">Menü</button>
+    <script src = "script.js" defer></script>
+</body>
+</html>

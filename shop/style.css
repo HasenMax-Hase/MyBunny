@@ -1,0 +1,88 @@
+body {
+    background-image: url('../bilder/shop_drinne.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.tiere {
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    gap: 40px;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: gold;
+    border-radius: 20px;
+}
+
+.tier_icon {
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+.button_buy_class {
+    background-color: aqua;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.gekauft_icon {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    width: 150px;
+}
+
+.button_back {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: gold;
+    font-size: 36px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.liebe_icon_class {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    top: 10px;
+    
+}
+
+p {
+    position: fixed;
+    top: -33px;
+    right: 20px;
+    background-color: aqua;
+    font-size: 36px;
+    padding: 10px 75px;
+    border-radius: 20px;
+}
+
+.preis_icon_class {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
