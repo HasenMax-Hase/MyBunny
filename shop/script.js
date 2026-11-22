@@ -155,5 +155,3 @@ for (const name of tiere) {
         zeige_gekauft(name);
     }
 }
-
-liebe = 10000000000;
