@@ -16,6 +16,11 @@ localStorage.setItem("gekauft_bunny", "nein");
 localStorage.setItem("gekauft_reh", "nein");
 localStorage.setItem("gekauft_brief", "nein");
 
+const start_title_music = new Audio("sound/titel_backround.mp3");
+start_title_music.play();
+start_title_music.loop = true;
+start_title_music.volume = 0.1;
+
 function startgame() {
     location.href = "main/game.html";
 }

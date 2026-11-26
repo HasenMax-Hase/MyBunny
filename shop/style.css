@@ -60,6 +60,7 @@ body {
     padding: 20px 40px;
     border-radius: 20px;
     cursor: pointer;
+    color: darkred;
 }
 
 .liebe_icon_class {

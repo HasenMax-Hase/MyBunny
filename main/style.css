@@ -9,9 +9,9 @@ body {
 h1 {
     text-align: center;
     font-size: 70px;
-    background-color: lightcoral;
+    background-color: yellow;
     background-size: 50%;
-    color: white;
+    color: darkred;
     width: fit-content;
     border-radius: 30px;
     margin: 0 auto;
@@ -25,6 +25,7 @@ h1 {
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 15px;
+    color: darkred;
 }
 
 .shop_button_class {
@@ -35,6 +36,8 @@ h1 {
     font-size: 36px;
     padding: 20px 40px;
     border-radius: 20px;
+    color: darkred;
+
 }
 
 .liebe_icon_class {
