@@ -9,8 +9,19 @@
 </head>
 <body>
     <h1>Alles Gute zum Geburtstag!</h1>
-    <p>Ich hoffe du konntest den heutigen Tag bisher gut genießen. Liebe Grüße Your Darling.</p>
-    <script src="script.js" defer></script>
+    <p>Ich hoffe du konntest deinen Geburtstag genießen.  Liebe Grüße Your Darling.</p>
     <button class = "button_back" onclick = "go_back_menue()">Zurück zum Menü</button>
+    <div class= "tiere_pos">
+        <button id = "button_press_hund" class = "button_animals" type = "button" onclick = "sound_hund()">
+            <img id = "tier_id1" class = "animal_icon_class" src = "../bilder/hund.png" draggable = "false">
+        </button>
+        <button id = "button_press_bunny" class = "button_animals" type ="button" onclick = "sound_bunny()">
+            <img id = "tier_id2" class = "animal_icon_class" src = "../bilder/bunny.webp" draggable = "false">
+        </button>
+        <button id = "button_press_hamster" class = "button_animals" type ="button" onclick = "sound_sheep()">
+            <img id = "tier_id3" class = "animal_icon_class" src = "../bilder/hamster.png" draggable = "false">
+        </button>
+    </div>
+    <script src="script.js" defer></script>
 </body>
-</html> 
+</html>

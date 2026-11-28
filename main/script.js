@@ -28,6 +28,7 @@ function liebe_wert() {
     document.getElementById("liebe_wert_id").textContent = liebe;
     click_sound.currentTime = 0;
     click_sound.play();
+    click_sound.volume = 0.25;
 
 }
 function go_shop() {
